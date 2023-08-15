@@ -1,0 +1,13 @@
+services:
+  api:
+    build: .
+    ports:
+      - '8000:8000'
+    volumes:
+      - .:/src
+  redis:
+    image: redis:alpine
+  splash:
+    image: scrapinghub/splash
+    ports:
+      - '8050:8050'
