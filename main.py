@@ -2,15 +2,7 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
+
 @app.get("/")
-
-
-
-
-
-
 def read_root():
-
-    return {"msg":"hello wrld"}
-
-
+    return {"msg": "hello wrld"}
