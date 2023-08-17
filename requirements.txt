@@ -21,6 +21,8 @@ cffi==1.15.1
     # via cryptography
 charset-normalizer==3.2.0
     # via requests
+click==8.1.7
+    # via uvicorn
 constantly==15.1.0
     # via twisted
 cryptography==41.0.3
@@ -36,6 +38,8 @@ fastapi==0.101.1
     # via -r requirements.in
 filelock==3.12.2
     # via tldextract
+h11==0.14.0
+    # via uvicorn
 hyperlink==21.0.0
     # via twisted
 idna==3.4
@@ -120,6 +124,8 @@ typing-extensions==4.7.1
     #   twisted
 urllib3==2.0.4
     # via requests
+uvicorn==0.23.2
+    # via -r requirements.in
 w3lib==2.1.2
     # via
     #   itemloaders
