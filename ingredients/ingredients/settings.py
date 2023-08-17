@@ -12,7 +12,7 @@ BOT_NAME = "ingredients"
 SPIDER_MODULES = ["ingredients.spiders"]
 NEWSPIDER_MODULE = "ingredients.spiders"
 # Splash Server Endpoint
-SPLASH_URL = "http://localhost:8050"
+SPLASH_URL = "http://localhost:8050/"
 
 
 # Enable Splash downloader middleware and change HttpCompressionMiddleware priority
@@ -39,7 +39,7 @@ DUPEFILTER_CLASS = "scrapy_splash.SplashAwareDupeFilter"
 # USER_AGENT = "ingredients (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = False
+# ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 # CONCURRENT_REQUESTS = 32
@@ -53,7 +53,7 @@ ROBOTSTXT_OBEY = False
 # CONCURRENT_REQUESTS_PER_IP = 16
 
 # Disable cookies (enabled by default)
-COOKIES_ENABLED = False
+COOKIES_ENABLED = True
 
 # Disable Telnet Console (enabled by default)
 # TELNETCONSOLE_ENABLED = False
